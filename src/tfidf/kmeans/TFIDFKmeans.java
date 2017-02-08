@@ -40,7 +40,7 @@ public class TFIDFKmeans {
 
         for (List<String> currDoc : documents) {
             //System.out.println("doc:"+)
-            System.out.println("Current Document: "+currDoc);
+            //System.out.println("Current Document: "+currDoc);
             for (String word : currDoc) {
 
                 if (!word.equalsIgnoreCase(prevWord)) {
