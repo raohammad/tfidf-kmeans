@@ -47,7 +47,9 @@ public class TFIDFKmeans {
                     System.out.print(word+":"+tfIdf.tfIdf(currDoc, documents, word)+", ");
                 }
                 prevWord = word;
-            }   
+            }
+            
+            System.out.println();
         }
     }
 
